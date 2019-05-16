@@ -43,6 +43,7 @@ export default {
     mixins:[Mixin],
     created() {
         this.baseUrl = this.sysConst.API_BASE;
+        console.log(this.sysConst.AJAX_MAX_TIME );
         console.log(this.baseUrl);
 //        this.check_userState(this.sysConst.STORAGE_KEY_userData, this)
 //        this.user_id = this.get_userId(this.sysConst.STORAGE_KEY_userData )
@@ -80,7 +81,7 @@ export default {
                      'nensu' : nensu ,
                      'toho' : toho ,
                 },
-                timeout:3000,
+                timeout: this.sysConst.AJAX_MAX_TIME,
             }).done(function(data) {
                 console.log("ajax-ok");
                 console.log(data.price );

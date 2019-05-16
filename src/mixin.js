@@ -11,7 +11,7 @@ export const Mixin =  {
             STORAGE_KEY_flash : 'strage_flash_key',
             API_BASE : 'http://localhost:5000/',
             /* API_BASE : 'http://192.168.10.104:5000/', */
-            AJAX_MAX_TIME : 8000,            
+            AJAX_MAX_TIME : 60000,            
         }
     },
     /* local storage */
