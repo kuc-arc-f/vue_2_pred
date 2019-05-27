@@ -1,29 +1,22 @@
-# vue_2
+# vue_2_pred
 
-## Project setup
-```
-npm install
-```
+ Version: 0.9.1
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+ Author  : Kouji Nakashima / kuc-arc-f.com
 
-### Compiles and minifies for production
-```
-npm run build
-```
+ date    : 2019/05/16
 
-### Run your tests
-```
-npm run test
-```
+***
+### Summary
 
-### Lints and fixes files
-```
-npm run lint
-```
+vue_2_pred:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.js (Vue-CLI 3) +flask SPA sample, ML predict
+
+***
+### Blog
+
+https://knaka0209.hatenablog.com/entry/vue_spa_16
+
+***
+
